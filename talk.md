@@ -13,7 +13,7 @@ def banjo_forward_roll(pitch, beats, chord='G'):
     return ''.join(next(pattern) for n in range(beats))
 ```
 
-<audio controls="controls" class="fragment none">
+<audio controls="controls" class="fragment">
   <source src="wavs/cripple_creek_3.wav" type="audio/wav">
 </audio>
 

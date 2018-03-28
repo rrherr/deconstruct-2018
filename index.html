@@ -34,6 +34,10 @@
 					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+			
+			Reveal.addEventListener( 'fragmentshown', function( event ) {
+				console.log(event.fragment);
+			});
 		</script>
 	</body>
 </html>
